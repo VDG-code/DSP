@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Python Flask Hello Web App</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link href="https://chromium.googlesource.com/external/github.com/twbs/bootstrap/+/v3.3.4/docs/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active">
+                        <a href="#">Home</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <h3 class="text-muted">Python Hello App</h3>
+        </div>
+
+        <div class="jumbotron">
+            <h1>Hello App</h1>
+            <p class="lead"></p>
+            <p>
+                Enter your First Name and Last Name:<br>
+                <form action="/hello" method="post">
+                    First Name: <input type="text" name="first_name">  <br />
+                    Last Name: <input type="text" name="last_name" /><br />
+                    <br />
+                    <input class="btn btn-lg btn-success" type="submit" name="form" value="Submit" />
+                </form>
+            </p>
+        </div>
+
+        <footer class="footer">
+            <p>© Company 2020</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>    
