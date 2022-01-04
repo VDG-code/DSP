@@ -1,3 +1,3 @@
 # DSP
 
-# This is a project done for DSP course on UvA
+## UvA DSP course project
